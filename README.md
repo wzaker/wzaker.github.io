@@ -7,6 +7,8 @@ I'm a student at the University of Maryland pursuing a degree in Information Sci
 
 ## Projects
 - Personal Finance Manager - Python
+- Poker - Java
+- Mental Health Matters - HTML/CSS/Javascript
 
 ## Skills
 - Java, Python, R, SQL
