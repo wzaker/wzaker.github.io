@@ -1,5 +1,3 @@
-# wzaker.github.io
-
 # Wahida's Portfolio
 
 Welcome to my portfolio! Here you can find my projects, skills, and contact information.
@@ -8,7 +6,7 @@ Welcome to my portfolio! Here you can find my projects, skills, and contact info
 I'm a student at the University of Maryland pursuing a degree in Information Science, with experience in software development, data analysis, and web design.
 
 ## Projects
-- 
+- Personal Finance Manager - Python
 
 ## Skills
 - Java, Python, R, SQL
