@@ -40,6 +40,16 @@ nav ul li a:hover {
   }
 }
 
+.project h2 a {
+  text-decoration: none; /* Remove underline */
+  color: #ff6347; /* Change color to match your theme */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.project h2 a:hover {
+  color: #e55330; /* Darken color on hover */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
