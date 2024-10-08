@@ -19,6 +19,26 @@ nav ul li a:hover {
   color: #ff6347;
 }
 
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+.project h2 {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .project {
+    width: 100%;
+  }
+}
 
 body {
     font-family: Arial, sans-serif;
