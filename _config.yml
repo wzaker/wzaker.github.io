@@ -1,3 +1,19 @@
-theme: jekyll-theme-minimal
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# theme: jekyll-theme-minimal 
 title: Wahida's Portfolio
 description: Welcome to my portfolio showcasing my projects, skills, and experience.
+
+# Social networks usernames 
+  - title: linkedin
+    url: http://linkedin/in/wzaker
+  - title: github
+    url: http://github.com/wzaker
+
+Contact:
+  - line: email: yowahida@gmail.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
