@@ -1,15 +1,16 @@
 # Welcome to My Portfolio
 
-Hi, I'm Wahida. This is my portfolio showcasing my work in web development, programming, and data analysis.
-
-## Projects
-- [The Core](https://github.com/username/thecore): An app to simplify streaming service browsing.
-- [Mental Health Matters](https://github.com/username/mentalhealth): A website promoting mental health awareness.
+Hi, I'm Wahida Zaker. This is my portfolio showcasing my work in web development, programming, and data analysis.
 
 ## Skills
-- Programming Languages: Java, Python, R
-- Web Development: HTML, CSS, JavaScript
-- Data Analysis: Excel, RStudio, Python, SQL
+- **Programming Languages: Java, Python, R
+- **Web Development: HTML, CSS, JavaScript
+- **Data Analysis: Excel, RStudio, Python, SQL
+
+## Projects
+- [Mental Health Matters](https://github.com/username/mentalhealth): A website promoting mental health awareness.
 
 ## Contact
-Feel free to [email me](mailto:yowahida@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername).
+Feel free to reach out via:
+- Email: [yowahida@gmail.com](mailto:yowahida@gmail.com)
+- LinkedIn: [linkedin.com/in/wahidaz](https://www.linkedin.com/in/wahidaz)
