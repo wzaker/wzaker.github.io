@@ -16,4 +16,4 @@ I'm a student at the University of Maryland pursuing a degree in Information Sci
 - Data Analysis (Excel, Python, R)
 
 ## Live Portfolio
-Check out the live version of my portfolio: [wahida.github.io](https://wahida.github.io)
+Check out the live version of my portfolio: [wzaker.github.io](https://wzaker.github.io)
