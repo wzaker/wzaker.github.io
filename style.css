@@ -1,3 +1,25 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
