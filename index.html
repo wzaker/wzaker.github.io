@@ -70,10 +70,24 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Wahida Zaker</p>
-  </footer>
+    <p>© 2024 Wahida Zaker</p>
+    <p>
+        <a href="https://github.com/wzaker" target="_blank"><img src="github-icon.png" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/wahidaz" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+    </p>
+</footer>
 
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+    <script>
+        const backToTopButton = document.querySelector('.back-to-top');
 
-    <script src="script.js"></script> <!-- Add any JavaScript -->
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+    </script>
 </body>
 </html>
