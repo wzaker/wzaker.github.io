@@ -28,7 +28,12 @@
   <a href="#about" class="button">About Me</a>
     <section id="about">
         <h2>Welcome to My Portfolio</h2>
-        <p>Hi, I’m Wahida Zaker. This is my portfolio showcasing my work in web development, programming, and data analysis.</p>
+        <<p>
+            Hello! I’m Wahida Zaker, currently pursuing a Bachelor's degree in Information Science at the University of Maryland, with plans to pursue a masters in software engineering.  My passion lies in web and software development, data analysis, and data science.
+        </p>
+        <p>
+            I am eager to expand my expertise in various programming languages and data analytics, driven by a desire to become knowledgeable in multiple areas within the tech field. My goal is to prepare myself for a successful and impactful career in software development.
+        </p>
     </section>
   
 <a href="#skills" class="button">Skills</a>
@@ -38,22 +43,27 @@
             <li><strong>Programming Languages:</strong> Java, Python, R</li>
             <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
             <li><strong>Data Analysis:</strong> Excel, RStudio, Python, SQL</li>
+            <li><strong>Tools:</strong> Git, GitHub, Visual Studio Code, Eclipse</li>
         </ul>
     </section>
 
   <a href="#projects" class="button">Projects</a>
   <section id="projects">
+    <h2>My Projects</h2>
     <div class="project">
       <h2><a href="https://proud-cobalt-artist-192.vscodeedu.app" target="_blank">Mental Health Matters</a></h2>
-      <p>A website promoting mental health awareness.</p>
+      <p>A website promoting mental health awareness, featuring resources and support for individuals. Built using HTML, CSS, and JavaScript.</p>
+      <p><strong>Key Technologies:</strong> HTML, CSS, JavaScript</p>
     </div>
     <div class="project">
        <h2><a href="https://github.com/wzaker/personal_finance_manager" target="_blank">Personal Finance Manager</a></h2>
-      <p>A Python program that helps users track finances.</p>
+        <p>A Python program that helps users track their finances and manage budgets effectively. Utilizes data visualization to present insights.</p>
+        <p><strong>Key Technologies:</strong> Python</p>
     </div>
     <div class="project">
       <h2><a href="https://github.com/wzaker/Poker" target="_blank">Poker Game</a></h2>
-      <p>A Java-based poker game simulator.</p>
+      <p>A Java-based poker game simulator that provides a realistic gaming experience, focusing on logic and strategy.</p>
+      <p><strong>Key Technologies:</strong> Java</p>
     </div>
   </section>
 
@@ -62,14 +72,24 @@
   
   <!-- Contact Section -->
   <a href="#contact" class="button">Contact Me</a>
-
     <section id="contact">
       <p>Feel free to reach out via:</p>
       <ul>
-          <li><strong>Email:</strong> <a href="mailto:yowahida@gmail.com">yowahida@gmail.com</a></li>
-          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/wahidaz" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/wahidaz</a></li>
-      </ul>
-  </section>
+        <li>
+            <strong>Email:</strong> 
+            <a href="mailto:yowahida@gmail.com">
+                <i class="fas fa-envelope"></i> yowahida@gmail.com
+            </a>
+        </li>
+        <li>
+            <strong>LinkedIn:</strong> 
+            <a href="https://linkedin.com/in/wahidaz" target="_blank">
+                <i class="fab fa-linkedin"></i> linkedin.com/in/wahidaz
+            </a>
+        </li>
+    </ul>
+    <p>I'm looking forward to connecting with you!</p>
+</section>
 
   <!-- Footer -->
   <footer>
@@ -84,12 +104,23 @@
     <script>
         const backToTopButton = document.querySelector('.back-to-top');
 
+        // Show/hide the back-to-top button on scroll
         window.addEventListener('scroll', () => {
             if (window.scrollY > 300) {
                 backToTopButton.classList.add('visible');
+                backToTopButton.style.display = 'block'; // Show the button
             } else {
                 backToTopButton.classList.remove('visible');
+                backToTopButton.style.display = 'none'; // Hide the button
             }
+        });
+
+        // Scroll to the top when the button is clicked
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll effect
+            });
         });
     </script>
 </body>
