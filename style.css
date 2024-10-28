@@ -71,7 +71,7 @@ nav ul li a:hover::after{
 }
 /* ---------------------------------about------------------------------ */
 #about{
-    pad: 80px 0;
+    padding: 80px 0;
     color: #ababab;
 }
 .row{
@@ -136,106 +136,53 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* ---------------------services---------------------------- */
-#services{
-    padding: 30px 0; /* 30 px top/bottom, left/right 0 */
+/* ---------------------portfolio---------------------------- */
+#portfolio{
+    padding: 30px 0; /* adds spacing around text */
 }
-.services-list{  /* --- grid layout--- */
+.work-list{ /* grid layout */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 20px;
+    margin-top: 30px;
 }
-.services-list div{
+.work-list div{ /* grid box */
     background: #262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-radius: 10px; /* rounded corners */
-    transition: background 0.5s, transform 0.5s; /* moves box up when hovering */
+    border-radius: 10px;
 }
-.services-list div i{ /* make icons bigger */
+.work-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 }
-.services-list div h2{
-    font-size: 30px;
+.work-list div h2{
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.services-list div:hover{ /* when hovering over a service... */
-    background-color: #ff004f; /* color change */
-    transform: translateY(-10px); /* moves box up by 10px */
-}
-
-/* ---------------------portfolio---------------------------- */
-#portfolio{
-    padding: 50px, 0; /* adds spacing around text */
-}
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
 .work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-}
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s; /* zooms in img */
-}
-.layer{
-    width: 100%;
-    height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
-    border-radius: 10px;
-    /* moves gradient and text over the image */
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
+    background-color: #ababab;
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.3s, transform 0.3s;
     text-align: center;
-    font-size: 14px;
-    transition: height 0.5s; /* moves gradient up when hover */
 }
-.layer h3{
-    font-weight: 500;
-    margin-bottom: 20px;
+.work h3{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-.layer a{
-    margin-top: 20px;
+.work a{
     color: #ff004f;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%; /* circle */
-    text-align: center;
 }
-.work:hover img{
-    transform: scale(1.1); /* zoom */
+.work a:hover{
+    color: white;
 }
-.work:hover.layer{ /* gradient transition over img */
-    height: 100%;
+.work:hover{
+    background-color: #623b3b;
+    transform: translateY(-5px);
 }
 .btn{
     display: block;
@@ -254,12 +201,15 @@ nav ul li a:hover::after{
 
 /* ---------------------contact---------------------------- */
 #contact{
-    padding: 50px, 0; /* adds spacing around text */
+    padding: 30px 0; /* adds spacing around text */
 }
 .contact-left p i{
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
+}
+.sub-title{
+    margin-bottom: 25px;
 }
 .social-icons{
     margin-top: 30px;
