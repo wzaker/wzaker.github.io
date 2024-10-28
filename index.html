@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Wahida's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d00acf0447.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Information Science Student</p>
+            <h1>Hi, I'm <span>Wahida Zaker</span><br> Welcome to my Portfolio</h1>
+        </div>
+    </div>
+</div>
+<!-- --------about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.png">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As an aspiring software engineer with a strong foundation in web development, 
+                    data analysis, and programming, I am currently pursuing a Bachelor’s degree 
+                    in Information Science at the University of Maryland, set to graduate in 
+                    August of 2025 with plans to pursue a Masters degree in Software Engineering.
+                    <br>
+                    <br>
+                    I am dedicated to expanding my skill set to become proficient 
+                    across multiple areas within the tech industry.
+                    In addition to my technical skills, I bring a diverse professional background with 
+                    roles in data analysis, office management, and healthcare.
+                    <br>
+                    <br>
+                    Looking ahead, I am excited to pursue opportunities that allow me to use my skills 
+                    in software development and data analytics. I'm driven by a desire to become 
+                    knowledgeable in multiple areas within the tech field, preparing myself for a successful and impactful 
+                    career in software development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span>
+                                <br>JAVA<br>Python</li>
+                            <li><span>Data Analytics</span>
+                                <br>SQL<br>R/R Studio<br>Excel</li>
+                            <li><span>Web Development</span>
+                                <br>HTML<br>CSS<br>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - 2022</span>
+                                <br>Data Analyst/Office Clerk at Islamic Society of Annapolis</li>
+                            <li><span>2022 - 2024</span>
+                                <br>Licensed Pharmacy Technician at CVS Pharmacy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelors of Science in Information Science</span>
+                                <br>University of Maryland College Park<br>Aug. 2023 - Aug. 2025</li>
+                            <li><span>Associates in Computer and Information Science Transfer</span>
+                                <br>Anne Arundel Community College<br>Aug. 2021 - May. 2023</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------services-------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> <!-- --- icons from fontawesome--- -->
+                <h2>Web Design</h2>
+                <p> Description </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>SWE</h2>
+                <p> Description </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- ----------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work1.png">
+                <div class="layer">
+                    <h3>Mental Health Matters</h3>
+                    <p>A website promoting mental health awareness, 
+                    featuring resources and support for individuals.
+                    Built using HTML, CSS, and JavaScript. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work2.png">
+                <div class="layer">
+                    <h3>Personal Finance Manager</h3>
+                    <p>A Python program that helps users track their finances 
+                        and manage budgets effectively. Utilizes data visualization 
+                        to present insights.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work3.png">
+                <div class="layer">
+                    <h3>Poker Game</h3>
+                    <p>A Java-based poker game simulator that provides a 
+                        realistic gaming experience, focusing on logic and strategy.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yowahida@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/wahidaz/"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                    <a href="https://github.com/wzaker"><i class="fa-brands fa-square-github"></i>Github</a>
+                </div>
+                <a href="img/Wahida_Zaker_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //create variables
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    // function that opens tab when pressed on the link
+    function opentab(tabname){ 
+        for(tablink of tablinks){ // hides underline when you press on tab
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){ // hides content when you press on tab
+            tabcontent.classList.remove("active-tab")
+        }
+        // displaying tab contents
+        event.currentTarget.classList.add("active-link"); // adds red underline when press on tab
+        document.getElementById(tabname).classList.add("active-tab"); // when press on a tab, will send that tab to the opentab function to show content
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200";
+    }
+</script>
+
+</body>
+</html>
